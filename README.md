@@ -12,7 +12,7 @@ git clone git@github.com:manuel-soria/v0-cli.git
 cd v0-cli
 
 # Install CLI locally
-./cli/install-local.sh
+./install-local.sh
 ```
 
 ### Option 2: Global Installation (Requires administrator permissions)
@@ -411,7 +411,6 @@ echo "Deployment ready: $DEPLOYMENT_URL"
 
 ### Install dependencies
 ```bash
-cd cli
 npm install
 ```
 
@@ -441,7 +440,7 @@ npm test
 1. **Permission error when installing globally**
    ```bash
    # Use local installation instead
-   ./cli/install-local.sh
+   ./install-local.sh
    ```
 
 2. **Incompatible Node.js version**
